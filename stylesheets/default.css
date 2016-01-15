@@ -1,0 +1,106 @@
+* {
+	font-family: Helvetica;
+}
+
+nav {
+	width: 100%;
+	font-family: Helvetica;
+	font-size: 1em;
+	border: 1px solid;
+	position: static;
+	z-index: -1;
+}
+
+nav > h1 {
+	font-family:Helvetica;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	display: inline-block;
+	padding: 0em 0em 0em 1em;
+	position: static;
+	background: white;
+	z-index: 1
+}
+
+nav > a {
+	text-decoration: none;
+	padding: 3em 1.75em;
+	position: relative;
+	display: inline-block;
+	float: right;
+	font-weight: bold;
+	color:black;
+	z-index: -1
+}
+
+#general {
+	clear: both;
+	position: relative;
+	padding: 20px
+}
+
+#general > img {
+	height: 300px;
+	width: 250px;
+	float: left;
+	position: relative;
+	margin: 3em 4em 2em 12em;
+}
+
+h2 {
+	margin-top:6em;
+}
+
+#resume {
+	color: rgb(16,131,203);
+	font-weight: bolder;
+	display: inline;
+}
+
+#resume	> p {
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#general > h2 {
+	margin-top:50px;
+}
+
+#projects {
+	width: 100%;
+	clear:both;
+}
+
+article {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	border: 1px solid;
+	margin-bottom: 20px
+}
+
+article > h3 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+article > img {
+	padding: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+article	> p {
+	padding: 10px;
+}
+
+footer {
+	position: relative;
+	margin-top: 10px;
+	font-weight: bold;
+	clear:both;
+	width: 100%;
+	text-align: center;
+}
