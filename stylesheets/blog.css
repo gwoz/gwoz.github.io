@@ -1,0 +1,30 @@
+section > section {
+	width: 100%;
+	font-size: 1em;
+	border: 1px solid;
+	position: relative;
+	display: inline-block;
+}
+
+section > h2 {
+	padding: 1em;	
+
+}
+
+section > img {
+	display: inline-block;
+	margin: 20px;
+	position: relative;
+	float: left;
+}
+
+section > h3 h4 h5 {
+	display: inline-block;
+	float: left;
+	position: relative;
+	margin-left: 20px;
+}
+
+main {
+	margin:20px;
+}
