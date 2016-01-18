@@ -28,3 +28,13 @@ section > h3 h4 h5 {
 main {
 	margin:20px;
 }
+
+section > p {
+	display: inline-block;
+}
+
+#css {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
