@@ -4,6 +4,9 @@ section > section {
 	border: 1px solid;
 	position: relative;
 	display: inline-block;
+	margin: 1%;
+	margin-left: 5%;
+	max-width: 75%;
 }
 
 section > h2 {
@@ -36,5 +39,15 @@ section > p {
 #css {
 	display: inline-block;
 	width: 100%;
+	text-align: center;
+}
+
+footer	{
+	border: 1px solid;
+}
+
+code {
+	display: inline-block;
+	background-color: #E8E8E8;
 	text-align: center;
 }
