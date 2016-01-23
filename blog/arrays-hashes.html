@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <title>CSS</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+<body>
+      <nav>
+      <h1>Gwoz</h1>
+        <a href="index.html">Home</a>
+        <a href=#>Projects</a>
+        <a href=#>Services</a>
+        <a href="blog/index.html">Blog</a>
+        <a href=#>Contact</a>
+      </nav>
+<main>
+  <h1>CSS</h1>
+  <h2>Arrays vs Hashes</h2>
+  <h4>1/22/2016</h4>
+  <section>
+    <p>Let's first start with a definition. Arrays are ordered <em>integer-indexed</em> collections of objects and hashes are ordered <em>object-indexed</em> collections of objects. So both are collections of objects, but what's the difference between integer-indexed and object-indexed and why does this matter?</p>
+    <p>Integer-indexed collections typically include data of a similar kind where there is no major difference in the type of data and the importance is placed on simply having the data all in one place. An example of this can be seen in tagging of content with keywords on a blog site. It's important to be able to see all the keywords at one time to understand what the content is about, but the order is not particularly important. An array would be a good solution for this type of problem.</p>
+    <p>Here's an example of an array that includes keywords for this blog post. Each value is a keyword.</p>
+    <code>blog_keywords = ["array", "hash", "integer-indexed", "object-indexed"]</code>
+    <P>Object-indexed collections offer some more complexity. Instead of just having a list of data, you can specify relationships in the form of key:value pairs. Often the data will be different and it may be necessary to get access to some values, but not others. For example, on LinkedIn you can specify skills for display on your profile. This seems like a good candidate for an array, right? Well that may not be the best choice since you need a way to highlight the most important ones based on endorsements. A hash might be a good option here to capture both the skill and number of endorsements.</P>
+    <p>Here's an example of a hash that includes my skillls and the number of endorsements for each. With the data in a hash we can easily determine which ones are most important to highlight.</p>
+    <code>my_LinkedIn_skills = {customerexperience: 9, projectmanagement: 5, troubleshooting: 2, zoology: 0, rocketscience: 0}</code>
+    <p>While there is never one correct solution to every problem, I hope this helps you understand the concept of integer-indexed and object-indexed data and when to use an array vs a hash.</p>
+  </section>
+      <footer>
+        <p>Made by Mike. Cheers!</p>
+      </footer>
+</main>
+</body>
