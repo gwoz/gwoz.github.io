@@ -6,7 +6,9 @@ section > section {
 	display: inline-block;
 	margin: 1%;
 	margin-left: 5%;
-	max-width: 75%;
+	max-width: 60%;
+	box-shadow: 3px 3px grey;
+	padding: 0.5%;
 }
 
 section > h2 {
