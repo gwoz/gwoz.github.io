@@ -8,7 +8,6 @@ nav {
 	border: 1px solid;
 	position: static;
 	display: inline-block;
-	z-index: -1;
 }
 
 nav > h1 {
@@ -19,7 +18,7 @@ nav > h1 {
 	padding: 0em 0em 0em 1em;
 	position: relative;
 	background: white;
-	z-index: 1
+	text-decoration: none;
 }
 
 nav > a {
@@ -30,7 +29,6 @@ nav > a {
 	float: right;
 	font-weight: bold;
 	color:black;
-	z-index: -1
 }
 
 #general {
@@ -73,9 +71,11 @@ article {
 	float: left;
 	min-width: 30%;
 	min-height: 30%;
-	margin: 10px;
+	margin: 1%;
 	border: 1px solid;
-	margin-bottom: 20px
+	margin-bottom: 10%;
+	margin-top: 5%;
+	margin-left: 2%;
 }
 
 article > h3 {
@@ -100,4 +100,5 @@ footer {
 	clear:both;
 	width: 100%;
 	text-align: center;
+	border: 1px solid;
 }
