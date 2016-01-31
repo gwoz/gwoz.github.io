@@ -48,7 +48,7 @@ footer	{
 }
 
 code {
-	display: inline-block;
-	background-color: #E8E8E8;
-	text-align: center;
+	display: block;
+	background-color: #E0A34B;
+	max-width: 75%;
 }
