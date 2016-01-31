@@ -4,11 +4,12 @@
 
 nav {
 	width: 100%;
-	font-size: 1em;
+	font-size: 1.2em;
 	border: 1px solid;
 	position: static;
-	display: inline-block;
 	box-shadow: 3px 3px grey;
+	background-color: #50B6F0;
+	border-radius: 10px 10px;
 }
 
 nav > h1 {
@@ -20,6 +21,7 @@ nav > h1 {
 	position: relative;
 	background: white;
 	text-decoration: none;
+	background-color: #50B6F0;
 }
 
 nav > a {
@@ -36,7 +38,7 @@ nav > a {
 	width: 100%;
 	clear: both;
 	position: relative;
-	padding: 20px
+	padding: 20px;
 }
 
 #general > img {
@@ -79,7 +81,8 @@ article {
 	margin-top: 5%;
 	margin-left: 2%;
 	box-shadow: 3px 3px grey;
-
+	background-color: #50B6F0;
+	border-radius: 10px 10px;
 }
 
 article > h3 {
@@ -88,7 +91,7 @@ article > h3 {
 }
 
 article > img {
-	padding: 10px;
+	padding: 0.5em;
 	height: 50px;
 	width: 50px;
 }
@@ -106,4 +109,17 @@ footer {
 	text-align: center;
 	border: 1px solid;
 	box-shadow: 3px 3px grey;
+	background-color: #50B6F0;
+	border-radius: 10px 10px;
+}
+
+#contact-main {
+
+	position: relative;
+	display: inline-block;
+	margin: 10em 0em 10em 0em;
+	width: 100%;
+	max-height: 50%;
+	max-width: 100%;
+	text-align: center;
 }
