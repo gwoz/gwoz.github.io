@@ -1,125 +1,105 @@
 * {
 	font-family: Helvetica;
+	background-color: black;
+	color: white;
+	margin: 0;
 }
+
+body {
+	height: 100%;
+}
+
+/* Nav */
 
 nav {
-	width: 100%;
-	font-size: 1.2em;
-	border: 1px solid;
-	position: static;
-	box-shadow: 3px 3px grey;
-	background-color: #50B6F0;
-	border-radius: 10px 10px;
-}
-
-nav > h1 {
-	font-family:Helvetica;
-	text-transform: uppercase;
-	font-size: 2.5em;
-	display: inline-block;
-	padding: 0em 0em 0em 1em;
-	position: relative;
-	background: white;
-	text-decoration: none;
-	background-color: #50B6F0;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid white;
+    float: left;
+    overflow: hidden;
 }
 
 nav > a {
-	text-decoration: none;
-	padding: 3em 1.75em;
 	position: relative;
 	display: inline-block;
 	float: right;
-	font-weight: bold;
-	color:black;
+	padding: 2em;	
+	text-decoration: none;
 }
 
-#general {
-	width: 100%;
-	clear: both;
-	position: relative;
-	padding: 20px;
-}
-
-#general > img {
-	min-height: 300px;
-	min-width: 325px;
+#logo {
 	float: left;
-	position: relative;
-	margin: 3em 4em 2em 12em;
-}
-
-#general > h2 {
-	margin-top:5em;
-	text-shadow: 1px 1px grey;
-}
-
-#resume {
-	color: rgb(16,131,203);
-	font-weight: bolder;
-	display: inline;
-}
-
-#resume	> p {
-	height: 50px;
 	display: inline-block;
-	vertical-align: middle;
+	padding: 0.25em;
+	font-size: 3em;
+
 }
 
-#projects {
+#logo:hover {
+	color: #1CA100;
+	background-color: black;
+}
+
+nav > a:hover {
+	background-color: #1CA100;
+	color: black;
+}
+
+/* Main Content */
+
+section {
 	width: 100%;
-	clear:both;
-}
-
-article {
-	float: left;
-	min-width: 30%;
-	min-height: 30%;
-	margin: 1%;
-	border: 1px solid;
-	margin-bottom: 10%;
-	margin-top: 5%;
-	margin-left: 2%;
-	box-shadow: 3px 3px grey;
-	background-color: #50B6F0;
-	border-radius: 10px 10px;
-}
-
-article > h3 {
-	display: inline-block;
-	vertical-align: top;
-}
-
-article > img {
-	padding: 0.5em;
-	height: 50px;
-	width: 50px;
-}
-
-article	> p {
-	padding: 10px;
-}
-
-footer {
-	position: relative;
-	margin-top: 10px;
-	font-weight: bold;
-	clear:both;
-	width: 100%;
-	text-align: center;
-	border: 1px solid;
-	box-shadow: 3px 3px grey;
-	background-color: #50B6F0;
-	border-radius: 10px 10px;
-}
-
-#contact-main {
-
-	position: relative;
-	display: inline-block;
-	margin: 10em 0em 10em 0em;
-	width: 100%;
-	max-height: 50%;
-	max-width: 100%;
+	height: 100%;
 	text-align: center;
 }
+
+h1 {
+	font-style: monospace;
+	color: black;
+	font-size: 15em;
+	display: inline-block;
+	padding: 0.1em;
+} 
+
+h1:hover {
+	color: #003A9E;
+}
+
+h3 {
+	padding-top: 3em;
+	color: black;
+	width: 50%;
+	display: inline-block;
+}
+
+h3:hover {
+	color: #EF6300;
+}
+
+/*Chart*/
+
+/*#one {
+	width: 65px;
+	height: 900px;
+	background-color: blue;
+	float: right;
+	display: block;
+}
+
+#two {
+	width: 65px;
+	height: 700px;
+	background-color: green;
+	float: right;
+	display: block;
+}*/
+
+
+
+
+
+
+
+
+
+
