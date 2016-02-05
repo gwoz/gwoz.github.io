@@ -15,19 +15,19 @@
   </script>
 </head>
 <body>
-      <nav>
-      <h1>Gwoz</h1>
-        <a href="../index.html">Home</a>
-        <a href=#>Projects</a>
-        <a href=#>Services</a>
-        <a href="index.html">Blog</a>
-        <a href="../contact/index.html">Contact</a>
-      </nav>
-<main>
-  <h1>Enumerable</h1>
-  <h2>Using partition to create an array of the items you want and a separate array for what's leftover</h2>
+  <nav>
+    <a id="logo" href=../index.html>GWOZ</a>
+    <a href="../contact/index.html">Contact</a>
+    <a href=#>Services</a>
+    <a href=#>Projects</a>
+    <a href="../blog/index.html">Blog</a>
+  </nav>
+  <header>
+  <h2>Enumerable</h2>
+  <h3>Using partition to create an array of the items you want and a separate array for what's leftover</h3>
   <h4>1/31/2016</h4>
-  <section>
+  </header>
+  <section id="post">
     <p>The Enumerable class is an extremely powerful one in Ruby. This class gives you several ways to iterate through a collection of items and temporarily <em>hold</em> them until you are ready to change the orginal collection or create a brand new collection.</p>
     <P>The partition method will return an array containing items meeting the criteria you defined and a second array containing the items that did <em>not</em> meet your criteria. This can greatly simplify solutions that require you to divide one collection into many. Here's an example of how you might be doing this today without the partition method. In the example below we want to take a hash of names and ages and break them into two collections. One collection should contain the people with ages less than the one we define. The rest should go into a separate collection:</p>
     <code>def group_method(name_age_hash, age)<br/>
@@ -42,8 +42,6 @@
     end</code>
     <p>This will accomplish the same objective with much simpler and DRY code.</p>
   </section>
-      <footer>
-        <p>Made by Mike. Cheers!</p>
-      </footer>
-</main>
+  <footer>
+  </footer>
 </body>
