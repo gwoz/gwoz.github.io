@@ -56,9 +56,9 @@ section {
 h1 {
 	font-style: monospace;
 	color: black;
-	font-size: 15em;
+	font-size: 10em;
 	display: inline-block;
-	padding: 0.1em;
+	padding: 0.5em;
 } 
 
 h1:hover {
@@ -94,6 +94,22 @@ h3:hover {
 	display: block;
 }*/
 
+/*Contact*/
+
+#contact-main {
+	text-align: center;
+	margin: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: white;
+	display: inline-block;
+	max-width: 250px;
+	max-height: 100px;
+}
+
+#contact-main > a, img {
+	background-color: white;
+}
 
 
 
