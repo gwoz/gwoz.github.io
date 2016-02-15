@@ -111,9 +111,46 @@ h3:hover {
 	background-color: white;
 }
 
+/*Projects*/
+
+#projects {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	max-height: 75%;
+}
+
+.projectitem > a {
+	color: #E0D94B;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.projectitem {
+	text-align: left;
+	display: inline-block;
+	border: 2px white solid;
+	padding: 1em;
+	margin: 3em;
+	max-width: 30%;
+	min-width: 400px;
+	min-height: 400px; 
+	float: left;
+}
+
+.projectitem > h4, h5, p {
+	color: white;
+	padding-top: 0.25em;
+	line-height: 125%;
+	margin: 1em;
+}
 
 
 
+.projectitem > a:hover {
+	color: #1CA100;
+}
 
 
 
