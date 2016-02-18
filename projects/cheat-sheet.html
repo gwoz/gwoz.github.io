@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-73111157-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+  <nav>
+    <a id="logo" href=../index.html>GWOZ</a>
+    <a href="../contact/index.html">Contact</a>
+    <a href=#>Services</a>
+    <a href="index.html">Projects</a>
+    <a href="../blog/index.html">Blog</a>
+  </nav>
+    <section id="cheatsheet">
+      <section class="cheatsheetitem">
+        <h4>any?</h4>
+        <code>array = [1,"hank",true]</br>array.any? {|x| x = "hank"}</br><em>=> True</em></code>
+      </section>
+      <section class="cheatsheet">
+          <section class="cheatsheetitem">
+          <h4>count</h4>
+          <code>array = [1,"hank",true,"sam"]</br>array.count {|x| x = true}</br><em>=> 1</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>drop</h4>
+          <code>array = [1,"hank",true,4,5]</br>array.drop(1)</br><em>=> [1,true,4,5]</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>drop_while</h4>
+          <code>array = [1,"hank",true,4,5]</br>array.drop_while {|x| x > 3}</br><em>=> [1,"hank",true]</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>find</h4>
+          <code>array = [1,5,"hank",true,3,12,5]</br>array.find {|x| x % 3 == 0}</br><em>=> 3</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>find_all</h4>
+          <code>array = [1,5,"hank",true,3,12,5]</br>array.find_all {|x| x % 3 == 0}</br><em>=> [3,12]</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>grep</h4>
+          <code>array = [1,2,3,4,5]</br>array.grep 3..5</br><em>=> [3,4,5]</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>max_by</h4>
+          <code>array = ["ted","xi","tina","cali"]</br>array.max_by(2) {|x| x.length}</br><em>=> ["tina","cali"]</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>partition</h4>
+          <code>array = [1,2,3,4,5]</br>array.partition {|x| x.even?}</br><em>=> [[2,4],[1,3,5]]</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>reduce</h4>
+          <code>array = [1,2,3,4,5]</br>array.reduce(:+)</br><em>=> 15</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>sort</h4>
+          <code>array = ["bill","lisa","frank"]</br>array.sort</br><em>=> ["bill","frank","lisa"]</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>take</h4>
+          <code>array = [1,2,3,4,5]</br>array.take(2)</br><em>=> [1,2]</em></code>
+      </section>
+      <section class="cheatsheetitem">
+          <h4>to_a</h4>
+          <code>(1..7).to_a</br><em>=> [1,2,3,4,5,6,7]</em></code>
+      </section>
+    </section>
+    <footer>
+    </footer>
+  </body>
+</html>
