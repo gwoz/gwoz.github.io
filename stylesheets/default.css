@@ -63,13 +63,13 @@ h1 {
 } 
 
 h1:hover {
-	color: #003A9E;
+	color: #282ACC;
 }
 
 h3 {
 	padding-top: 3em;
 	color: black;
-	width: 50%;
+	width: 40%;
 	display: inline-block;
 }
 
@@ -77,23 +77,65 @@ h3:hover {
 	color: #EF6300;
 }
 
-/*Chart*/
+/*Graph*/
 
-/*#one {
-	width: 65px;
-	height: 900px;
-	background-color: blue;
-	float: right;
-	display: block;
+#graph {
+	width: 100%;
+	padding-top: 2em;
+}
+
+#one {
+	width: 20px;
+	height: 30px;
+	background-color: #282ACC;
+	display: inline-block;
 }
 
 #two {
-	width: 65px;
-	height: 700px;
-	background-color: green;
-	float: right;
-	display: block;
-}*/
+	width: 20px;
+	height: 40px;
+	background-color: #282ACC;
+	display: inline-block;
+}
+
+#three {
+	width: 20px;
+	height: 55px;
+	background-color: #282ACC;
+	display: inline-block;
+}
+
+#four {
+	width: 20px;
+	height: 70px;
+	background-color: #282ACC;
+	display: inline-block;
+}
+
+#five {
+	width: 20px;
+	height: 90px;
+	background-color: #282ACC;
+	display: inline-block;
+}
+
+#six {
+	width: 20px;
+	height: 120px;
+	background-color: #282ACC;
+	display: inline-block;
+}
+
+#seven {
+	width: 20px;
+	height: 160px;
+	background-color: #282ACC;
+	display: inline-block;
+}
+
+#graph *:hover {
+	color: #EF6300;
+}
 
 /*Contact*/
 
